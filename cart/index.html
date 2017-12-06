@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Shopping Cart</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../src/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container">
+    <nav>
+        <ul class="menu">
+            <li id="logo"><a href="../">Online Shopping</a></li>
+            <li id="cart">
+                <a href="index.html">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+                <span id="product_count">32</span>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div class="header">
+            <p class="title">SHOPPING CART</p>
+            <p class="info">You have 2 items</p>
+        </div>
+
+        <div class="items">
+        </div>
+
+        <div class="payment">
+            <div class="sub-total">
+                Sub-total:&emsp;
+                <div class="sub-total-zu"></div>
+            </div>
+
+            <div class="tax">
+                Tax (19%):&emsp;
+                <div class="tax-zu"></div>
+            </div>
+
+            <div class="total">
+                Total:&emsp;
+                <div class="total-zu"></div>
+            </div>
+
+            <div class="pay-now">
+                <a href="#">Pay Now</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <hr>
+        <p>Disclaimer: This is just a clickable prototype</p>
+        <p>&copy; ilonacodes</p>
+    </footer>
+
+    <script src="../src/Cart.js"></script>
+    <script src="../src/Product.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
